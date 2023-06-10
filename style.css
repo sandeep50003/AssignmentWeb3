@@ -1,0 +1,55 @@
+.emoji {
+    padding: 16px;
+    border: 1px  solid black;
+    border-radius: 9px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.emojis {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
+h2 {
+    border-bottom: 1px solid grey;
+    order: 2;
+    margin-bottom: 0px;
+}
+a {
+    text-decoration: none;
+    background: #8000af;
+    color: white;
+    text-transform: capitalize;
+    padding: 7px 13px;
+    display: block;
+    border-radius: 5px;
+    font-size: 15px;
+    order: 4;
+}
+span.icon {
+    order: 1;
+}
+p {
+    order: 3;
+}
+span.icon {
+    order: 1;
+    font-size: 49px;
+    text-align: center;
+}
+.emoji:nth-child(4) a {
+    position: relative;
+    top: 18px;
+}
+body {
+    max-width: 778PX;
+    margin: auto;
+}
+@media only screen and (max-width: 771px) {
+    .emoji {
+        width: 100%;
+    }
+  }
